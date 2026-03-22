@@ -576,3 +576,19 @@
   </script>
 </body>
 </html>
+<footer>
+  <div class="container">
+    <p>
+      © <span id="current-year">2026</span> YourSiteName. All rights reserved.
+      <br>
+      <a href="https://support.restream.io" target="_blank">Contact Restream</a> |
+      <a href="/privacy-policy.html" target="_blank">Privacy Policy</a> |
+      <a href="/terms.html" target="_blank">Terms of Service</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  const now = new Date();
+  document.getElementById("current-year").textContent = now.getFullYear();
+</script>
